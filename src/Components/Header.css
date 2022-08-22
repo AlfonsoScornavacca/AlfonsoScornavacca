@@ -1,3 +1,7 @@
-h2 {
+#main{
+    display: block;
+    background-color: black;
+}
+h1 {
     color: blue;
 }

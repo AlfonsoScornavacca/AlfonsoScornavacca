@@ -1,8 +1,8 @@
-import './Button.css'
-function Buttons (props)  {
+import './Modal.css'
+function Modal (props)  {
     return ( 
         <button id={props.variante}  >{ props.text }</button>
      );
 }
  
-export default Buttons;
+export default Modal;
