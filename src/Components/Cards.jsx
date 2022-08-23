@@ -4,16 +4,19 @@ import Card from 'react-bootstrap/Card';
 function Cards(props) {
   return (
     <Card className="text-center">
-      <Card.Header>Featured</Card.Header>
+      <Card.Header>{props.title}</Card.Header>
       <Card.Body>
-        <Card.Title>Special title treatment</Card.Title>
+        <Card.Title>{props.years}</Card.Title>
         <Card.Text>
-          With supporting text below as a natural lead-in to additional content.
+          {props.description}
         </Card.Text>
+        <div className={props.clase}>
         <Card.Img 
         width={171}
         height={180}
-        src={props.img} /><br></br>
+        src={props.img} />
+        </div>
+        <br></br>
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
       <Card.Footer className="text-muted">2 days ago</Card.Footer>

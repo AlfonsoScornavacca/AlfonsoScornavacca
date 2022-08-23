@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Main />
       <Secondary />
-      <Footer />
+      <Footer className='footer'/>
     </div>
   );
 }
