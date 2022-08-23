@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-function Cards() {
+function Cards(props) {
   return (
     <Card className="text-center">
       <Card.Header>Featured</Card.Header>
@@ -10,6 +10,10 @@ function Cards() {
         <Card.Text>
           With supporting text below as a natural lead-in to additional content.
         </Card.Text>
+        <Card.Img 
+        width={171}
+        height={180}
+        src={props.img} /><br></br>
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
       <Card.Footer className="text-muted">2 days ago</Card.Footer>
