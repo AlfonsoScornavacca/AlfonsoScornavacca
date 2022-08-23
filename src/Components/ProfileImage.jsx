@@ -12,7 +12,7 @@ function FigureExample() {
         src="https://avatars.githubusercontent.com/u/90060162?v=4"
       />
       <Figure.Caption >
-       <h2>My profile picture</h2> 
+       <h2>Alfonso Scornavacca</h2> 
       </Figure.Caption>
     </Figure>
   );

@@ -2,7 +2,7 @@ import './Header.css';
 function Head() {
     return (
         <div id='main'>
-        <h1>Alfonso Scornavacca</h1>
+        <h1>Wellcome</h1>
         </div>
     );
   }
