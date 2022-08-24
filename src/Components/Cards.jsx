@@ -1,12 +1,13 @@
 import Card from 'react-bootstrap/Card';
+import './Cards.css';
 
 function Cards(props) {
   return (
     <Card className="text-center">
-      <Card.Header>{props.title}</Card.Header>
+      <Card.Header className='title'>{props.title}</Card.Header>
       <Card.Body>
         <Card.Title></Card.Title>
-        <Card.Text>
+        <Card.Text className='description'>
           {props.description}
         </Card.Text>
         <div className={props.clase}>
@@ -16,7 +17,7 @@ function Cards(props) {
         src={props.img} />
         </div>
       </Card.Body>
-      <Card.Footer className="text-muted">{props.years}</Card.Footer>
+      <Card.Footer className="years">{props.years}</Card.Footer>
     </Card>
   );
 }

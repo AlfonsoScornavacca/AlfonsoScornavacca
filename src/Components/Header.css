@@ -3,6 +3,9 @@
     background-color: #222;
     border-style: double;
     border-color: aliceblue;
+    border-top: none;
+    border-left: none;
+    border-right: none;
     display: flex;
     justify-content: center;
 }

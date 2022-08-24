@@ -5,7 +5,12 @@
     height: 160px;
     width: 100%;
     background: #222;
-    margin-top: 15px;
+    margin-top: 15px;    
+    border-style: double;
+    border-color: aliceblue;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
 }
 
 .media{

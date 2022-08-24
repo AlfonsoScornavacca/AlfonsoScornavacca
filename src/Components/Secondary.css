@@ -163,7 +163,7 @@
   .react:hover{
     animation-name: spin;
     animation-duration: 3s;
-    animation-delay: 1ms;
+    animation-delay: 0s;
     animation-iteration-count: infinite;
 }
 @keyframes spin { 

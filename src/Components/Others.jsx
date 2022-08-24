@@ -1,11 +1,11 @@
 import './Secondary.css'
 import Cards from './Cards';
-import jsLogo from '../Images/javascriptLogo.png'
-import cssLogo from '../Images/cssLogo.png'
-import htmlLogo from '../Images/htmlLogo.png'
-import bootstrapLogo from '../Images/bootstrapLogo.png'
-import nodeLogo from '../Images/nodeLogo.png'
-import reactLogo from '../Images/reactLogo.png'
+import powerappLogo from '../Images/powerapp.png'
+import powerAutomateLogo from '../Images/PowerAutomate.png'
+import sharePointLogo from '../Images/SharePoint.png'
+import gitLogo from '../Images/git.png'
+import azureLogo from '../Images/Azure.png'
+import terraformLogo from '../Images/terraform.png'
 
 
 function Others () {
@@ -13,14 +13,14 @@ function Others () {
     return ( 
             <div className="main">
                 <div id='cards-container'>
-                    <Cards years='Exp: 2 Years' clase='js' title='JavaScript' img={jsLogo}/>
-                    <Cards years='Exp: 2 Years' clase='css' title='CSS 3' img={cssLogo}/>
-                    <Cards years='Exp: 2 Years' clase='html' title='HTML 5' img={htmlLogo}/>
+                    <Cards years='Exp: 6 Months' clase='css' title='PowerApp' img={powerappLogo}/>
+                    <Cards years='Exp: 6 Months' clase='html' title='Power Automate' img={powerAutomateLogo}/>
+                    <Cards years='Exp: 6 Months' clase='js' title='SharePoint' img={sharePointLogo}/>
                 </div>
                 <div id='cards-container-two'>
-                    <Cards years='Exp: 1.5 Years' clase='react' title='React' img={reactLogo}/>
-                    <Cards years='Exp: 1.5 Years' clase='node' title='Node' img={nodeLogo}/>
-                    <Cards years='Exp: 2 Years' clase='bootstrap' title='Bootstrap' img={bootstrapLogo}/>
+                    <Cards years='Exp: 1.5 Years' clase='node' title='Git' img={gitLogo}/>
+                    <Cards years='Exp: 6 Months' clase='bootstrap' title='Azure' img={azureLogo}/>
+                    <Cards years='Exp: 6 Months' clase='react' title='Terraform' img={terraformLogo}/>
                 </div>
             </div>
             
