@@ -13,14 +13,14 @@ function Secondary () {
     return ( 
             <div className="main">
                 <div id='cards-container'>
-                    <Cards clase='js' title='JavaScript' img={jsLogo}/>
-                    <Cards clase='css' title='CSS 3' img={cssLogo}/>
-                    <Cards clase='html' title='HTML 5' img={htmlLogo}/>
+                    <Cards years='Exp: 2 Years' clase='js' title='JavaScript' img={jsLogo}/>
+                    <Cards years='Exp: 2 Years' clase='css' title='CSS 3' img={cssLogo}/>
+                    <Cards years='Exp: 2 Years' clase='html' title='HTML 5' img={htmlLogo}/>
                 </div>
                 <div id='cards-container-two'>
-                    <Cards clase='css' title='React' img={reactLogo}/>
-                    <Cards title='Node' img={nodeLogo}/>
-                    <Cards title='Bootstrap' img={bootstrapLogo}/>
+                    <Cards years='Exp: 1.5 Years' clase='css' title='React' img={reactLogo}/>
+                    <Cards years='Exp: 1.5 Years' clase='node' title='Node' img={nodeLogo}/>
+                    <Cards years='Exp: 2 Years' clase='bootstrap' title='Bootstrap' img={bootstrapLogo}/>
                 </div>
             </div>
             
