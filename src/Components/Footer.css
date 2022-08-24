@@ -5,7 +5,9 @@
     height: 160px;
     width: 100%;
     background: #222;
+    margin-top: 15px;
 }
+
 .media{
     color: aliceblue;
 }

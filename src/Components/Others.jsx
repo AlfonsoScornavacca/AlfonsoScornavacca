@@ -8,7 +8,7 @@ import nodeLogo from '../Images/nodeLogo.png'
 import reactLogo from '../Images/reactLogo.png'
 
 
-function Secondary () {
+function Others () {
     
     return ( 
             <div className="main">
@@ -27,4 +27,4 @@ function Secondary () {
      );
 }
  
-export default Secondary;
+export default Others;

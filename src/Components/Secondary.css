@@ -74,12 +74,20 @@
       }
   }
   .html:hover{
-    animation: fadeIn 5s;
+    animation-name: rotatey;
+    animation-duration: 2s;
 }
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
+@keyframes rotatey{
+    0%{
+      transform: rotateY(0deg);
+    }
+    50%{
+      transform: rotateY(90deg);
+    }
+    100%{
+        transform: rotateY(0deg);
+      }
+  }
 
 .bootstrap:hover{
     animation-name: rotates;
@@ -152,3 +160,17 @@
     }
     
   }
+  .react:hover{
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-delay: 1ms;
+    animation-iteration-count: infinite;
+}
+@keyframes spin { 
+    from { 
+        transform: rotate(0deg); 
+    } to { 
+        transform: rotate(360deg); 
+    }
+    
+}

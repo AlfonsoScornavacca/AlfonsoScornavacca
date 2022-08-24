@@ -1,8 +1,8 @@
 import './Header.css';
 function Head() {
     return (
-        <div id='main'>
-        <h1 className='h1'>Wellcome</h1>
+        <div id='mainn'>
+        <h1 className='h1'>Wellcome You!!</h1>
         </div>
     );
   }
