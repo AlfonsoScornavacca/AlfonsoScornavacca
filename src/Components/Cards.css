@@ -7,3 +7,8 @@
 .years{
     color: aliceblue;
 }
+.text-center{
+    border-style: double;
+    border-radius: 10px;
+    border-color: aliceblue;
+}

@@ -1,4 +1,5 @@
-import './Secondary.css'
+import './Secondary.css';
+import './Others.css';
 import Cards from './Cards';
 import powerappLogo from '../Images/powerapp.png'
 import powerAutomateLogo from '../Images/PowerAutomate.png'
@@ -14,7 +15,7 @@ function Others () {
             <div className="main">
                 <div id='cards-container'>
                     <Cards years='Exp: 6 Months' clase='css' title='PowerApp' img={powerappLogo}/>
-                    <Cards years='Exp: 6 Months' clase='html' title='Power Automate' img={powerAutomateLogo}/>
+                    <Cards className='powerautomate' years='Exp: 6 Months' clase='html' title='Automate' img={powerAutomateLogo}/>
                     <Cards years='Exp: 6 Months' clase='js' title='SharePoint' img={sharePointLogo}/>
                 </div>
                 <div id='cards-container-two'>

@@ -9,13 +9,13 @@
 #cards-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 10px;
 }
 #cards-container-two{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 10px;
     background-color: #222;
 }
