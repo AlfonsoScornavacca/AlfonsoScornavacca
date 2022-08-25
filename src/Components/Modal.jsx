@@ -11,14 +11,15 @@ function Modall (props)  {
         <button className={show ? 'close' : 'closeButton'} onClick={handleShow}>
           {props.boton}
         </button>
+        <button className={show ? 'closeButton' : 'close'} onClick={handleClose}>
+              Close ❌
+            </button>
   
         <div className={show ? 'modal' : 'close'} show={show} onHide={handleClose}>
             <div>
                 {props.cuerpo}
             </div>
-            <button className={show ? 'closeButton' : 'close'} onClick={handleClose}>
-              Close ❌
-            </button>
+
         </div>
       </>
      );

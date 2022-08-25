@@ -14,10 +14,10 @@ function App() {
       <Main />
       <div className='buttons'>
         <div className='modal'>
-          <Modall boton='Main Skills 👇' cuerpo={<Secondary />}/>
+          <Modall boton='Main Skills 🙌' cuerpo={<Secondary />}/>
         </div>
         <div className='modal'>
-          <Modall boton='Other Skills 👇' cuerpo={<Others />}/>
+          <Modall boton='Other Skills 👌' cuerpo={<Others />}/>
         </div>
       </div>
       
