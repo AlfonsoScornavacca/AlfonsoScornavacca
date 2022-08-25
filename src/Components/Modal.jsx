@@ -1,4 +1,5 @@
 import './Modal.css'
+import React from 'react';
 import { useState } from 'react';
 
 function Modall (props)  {
@@ -7,14 +8,13 @@ function Modall (props)  {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     return ( 
-        <>
+      <>
         <button className={show ? 'close' : 'closeButton'} onClick={handleShow}>
           {props.boton}
         </button>
         <button className={show ? 'closeButton' : 'close'} onClick={handleClose}>
               Close ❌
-            </button>
-  
+            </button>  
         <div className={show ? 'modal' : 'close'} show={show} onHide={handleClose}>
             <div>
                 {props.cuerpo}

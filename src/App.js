@@ -1,12 +1,11 @@
 import './App.css';
+import React from 'react';
 import Header from './Components/Header'
 import Main from './Components/Main'
 import Footer from './Components/Footer';
-import React from 'react';
 import Secondary from './Components/Secondary';
 import Others from './Components/Others';
-import Modall
- from './Components/Modal';
+import Modall from './Components/Modal';
 function App() {
   return (
     <div className="App">

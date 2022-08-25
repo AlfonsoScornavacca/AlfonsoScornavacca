@@ -1,5 +1,7 @@
 #mainn{
-    display: block;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
     background-color: #222;
     border-style: double;
     border-color: aliceblue;

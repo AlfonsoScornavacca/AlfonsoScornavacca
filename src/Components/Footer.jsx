@@ -1,3 +1,4 @@
+import React from 'react';
 import './Footer.css'
 import FigureExample from './ProfileImage';
 function Footer ()  {

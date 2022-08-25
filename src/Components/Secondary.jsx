@@ -1,4 +1,5 @@
 import './Secondary.css'
+import React from 'react';
 import Cards from './Cards';
 import jsLogo from '../Images/javascriptLogo.png'
 import cssLogo from '../Images/cssLogo.png'

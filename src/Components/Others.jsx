@@ -1,3 +1,4 @@
+import React from 'react';
 import './Secondary.css';
 import './Others.css';
 import Cards from './Cards';

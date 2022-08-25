@@ -1,3 +1,4 @@
+import React from 'react';
 import Figure from 'react-bootstrap/Figure';
 import './ProfileImage.css'
 
