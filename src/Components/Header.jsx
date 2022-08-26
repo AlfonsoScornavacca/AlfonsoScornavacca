@@ -5,8 +5,15 @@ import NavBar from './Header/Nav';
 function Head() {
     return (
         <div id='mainn'>
-        <NavBar />
-        <h1 className='h1'>Wellcome You!!</h1>
+        <div className='div-1'>
+            <NavBar />  
+        </div>       
+        <div className='div-2'>
+            <h1 className='h1'>Wellcome You!!</h1>
+        </div>
+        <div className='div-1'>
+
+        </div>
         </div>
     );
   }

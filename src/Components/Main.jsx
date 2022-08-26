@@ -1,16 +1,19 @@
 import React from 'react';
 import './Main.css'
+import Secondary from './Secondary';
+import Modall from './Modal';
+import Others from './Others';
 import FigureExample from './ProfileImage';
 
 
 function Main () {
     
     return ( 
-            <div className="main">
-                <div className='main-img'>
+    <div className="main">
+        <div className='main-img'>
                 <FigureExample text='Alfonso Scornavacca' width={171} height={180} image="https://avatars.githubusercontent.com/u/90060162?v=4"/>
-                <div className='cards-container'>
-                  <div className='main-data'>
+            <div className='cards-container'>
+                <div className='main-data'>
                     <div className='data-1'>
                         <div className='data-2'>
                             <h4>Name :</h4>
@@ -47,11 +50,19 @@ function Main () {
                             <p>Raona</p>
                         </div>
                     </div>
-                    </div>  
-                </div>
-                </div>               
+                </div>  
             </div>
-     );
+        </div>
+        <div className='buttons'>
+        <div className='modal'>
+          <Modall boton='Main Skills ' cuerpo={<Secondary />}/>
+        </div>
+        <div className='modal'>
+          <Modall boton='Other Skills ' cuerpo={<Others />}/>
+        </div>
+      </div>               
+    </div>
+    );
 }
  
 export default Main;

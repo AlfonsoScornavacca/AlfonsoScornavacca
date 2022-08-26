@@ -11,7 +11,7 @@ function FigureExample(props) {
       className='imgg'
         width={props.width}
         height={props.height}
-        alt="171x180"
+        alt="image"
         src={props.image}
         onClick={() => openInNewTab(props.url)}
       />

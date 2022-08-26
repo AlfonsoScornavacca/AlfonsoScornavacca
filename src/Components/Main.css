@@ -41,3 +41,10 @@
 .data-2 h4{
     color: aliceblue;
 }
+.modal{
+    margin: 10px;
+  }
+  .buttons{
+    display:flex;
+    justify-content: flex-end;
+  }

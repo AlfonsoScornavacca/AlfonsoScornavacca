@@ -1,22 +1,19 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-
+import './Nav.css'
 
 function NavBar() {
   return (
     <>
-      <Navbar >
-        <Container className='main-nav'>
-          <Nav className="second-nav">
-              <button>Home</button>
-              <button >Work Experiences</button>
-              <button >Certifications</button>
-              <button >Contact</button>
-          </Nav>
-        </Container>
-      </Navbar>
+      <div >
+        <div className='main-nav'>
+          <div className="second-nav">
+              <button className='button'>Home</button>
+              <button className='button'>Work Experiences</button>
+              <button className='button'>Certifications</button>
+              <button className='button'>Contact</button>
+          </div>
+        </div>
+      </div>
  
     </>
   );
