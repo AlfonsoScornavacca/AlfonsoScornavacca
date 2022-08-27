@@ -13,7 +13,7 @@ function Modall (props)  {
           {props.boton}
         </button>
         <button className={show ? 'closeButton' : 'close'} onClick={handleClose}>
-              Close 
+           <span>Close </span>   
             </button>  
         <div className={show ? 'modal' : 'close'} show={show} onHide={handleClose}>
             <div>
