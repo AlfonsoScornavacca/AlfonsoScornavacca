@@ -13,9 +13,10 @@ function Cards(props) {
         </Card.Text>
         <div className={props.clase}>
         <Card.Img 
-        width={148}
-        height={150}
-        src={props.img} />
+        onClick={props.click}
+        width={props.width}
+        height={props.height}
+        src={props.iimg} />
         </div>
       </Card.Body>
       <Card.Footer className="years">{props.years}</Card.Footer>

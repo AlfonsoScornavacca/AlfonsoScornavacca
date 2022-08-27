@@ -1,63 +1,53 @@
-import React from 'react';
-import './Main.css'
-import Secondary from './Secondary';
-import Modall from './Modal';
-import Others from './Others';
+import React, { useState } from 'react';
+import './Certifications.css'
+import Cards from './Cards';
+import Azure from '../Images/certifiedAzure.png';
+import Js from '../Images/certifiedJS.png';
+import JsCertificate from '../Images/JSCertificate.png';
+import ReactCertificate from '../Images/ReactCertificate.png';
+import HTMLCertificate from '../Images/HTMLCertificate.png';
+import teclab from '../Images/teclab.png';
+import { CertificationModal } from './CertificationModal';
+
+
+
 
 function Certifications () {
+    const [mostrar, setMostrar] = useState(false);
+
+    const [img, setImg] = useState(null);
+
+    const ObtenerMostrar = () => {setMostrar(true); setImg(Azure)};
+    const ObtenerMostrarA = () => {setMostrar(true); setImg(Js)};
+    const ObtenerMostrarB = () => {setMostrar(true); setImg(JsCertificate)};
+    const ObtenerMostrarC = () => {setMostrar(true); setImg(ReactCertificate)};
+    const ObtenerMostrarD = () => {setMostrar(true); setImg(HTMLCertificate)};
+    
+    
+    const ocultar = () => setMostrar (false);
+
+    const ObtenerMostrarE = () => {setMostrar(true); setImg(teclab)};
     
     return ( 
-    <div className="main">
-        <div className='main-img'>        
-            <div className='cards-container'>
-                <div className='main-data'>
-                    <div className='data-1'>
-                        <div className='data-2'>
-                            <h4>Name :</h4>
-                            <p>Alfonso Scornavacca</p>
-                        </div>
-                        <div className='data-2'>
-                            <h4>Age :</h4>
-                            <p>33 Years old</p>
-                        </div>
-                        <div className='data-2'>
-                            <h4>Country :</h4>
-                            <p>Argentina</p>
-                        </div>
-                        <div className='data-2'>
-                            <h4>English Level :</h4>
-                            <p>Mid level</p>
-                        </div>
-                    </div>
-                    <div className='data-1'>
-                        <div className='data-2'>
-                            <h4>Career :</h4>
-                            <p>Senior programming technician</p>
-                        </div>
-                        <div className='data-2'>
-                            <h4>Institute :</h4>
-                            <p>Teclab</p>
-                        </div>
-                        <div className='data-2'>
-                            <h4>Work experience :</h4>
-                            <p>1 year in IT companies</p>
-                        </div>
-                        <div className='data-2'>
-                            <h4>Current Company :</h4>
-                            <p>Raona</p>
-                        </div>
-                    </div>
-                </div>  
-            </div>
+    <div className="certi-main">
+        <CertificationModal image={img} cerrar={ocultar} ver={mostrar ? 'div-mostrar' : 'ocultar'} />
+        <h3>Microsoft</h3>
+        <div className='certi-1'>
+            <Cards click={ObtenerMostrar} width={630} height={400} clase='cartas'  iimg={Azure}/>
+            <Cards click={ObtenerMostrarA} width={630} height={400} clase='cartas'  iimg={Js}/>
         </div>
-        <div className='buttons'>
-        <div className='modal'>
-          <Modall boton='Main Skills ' cuerpo={<Secondary />}/>
+        <h3>Escuela DevRock</h3>
+        <div className='certi-1'>
+            <Cards click={ObtenerMostrarB} width={630} height={400} clase='cartas'  iimg={JsCertificate}/>
+            <Cards click={ObtenerMostrarC} width={630} height={400} clase='cartas'  iimg={ReactCertificate}/>
         </div>
-        <div className='modal'>
-          <Modall boton='Other Skills ' cuerpo={<Others />}/>
+        <div className='certi-1'>
+            <Cards   click={ObtenerMostrarD} width={630} height={400} clase='cartas'  iimg={HTMLCertificate}/>
         </div>
-      </div>               
+        <h3>Teclab</h3>
+        <div className='certi-1'>
+            <Cards click={ObtenerMostrarE} className='cartas'  width={400} height={630} iimg={teclab}/>
+        </div>
     </div>
     );
 }

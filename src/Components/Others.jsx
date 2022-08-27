@@ -15,14 +15,14 @@ function Others () {
     return ( 
             <div className="main">
                 <div id='cards-container'>
-                    <Cards years='Exp: 6 Months' clase='css' title='PowerApp' img={powerappLogo}/>
-                    <Cards className='powerautomate' years='Exp: 6 Months' clase='html' title='Automate' img={powerAutomateLogo}/>
-                    <Cards years='Exp: 6 Months' clase='js' title='SharePoint' img={sharePointLogo}/>
+                    <Cards width={148} height={150} years='Exp: 6 Months' clase='css' title='PowerApp' iimg={powerappLogo}/>
+                    <Cards width={148} height={150} className='powerautomate' years='Exp: 6 Months' clase='html' title='Automate' iimg={powerAutomateLogo}/>
+                    <Cards width={148} height={150} years='Exp: 6 Months' clase='js' title='SharePoint' iimg={sharePointLogo}/>
                 </div>
                 <div id='cards-container-two'>
-                    <Cards years='Exp: 1.5 Years' clase='node' title='Git' img={gitLogo}/>
-                    <Cards years='Exp: 6 Months' clase='bootstrap' title='Azure' img={azureLogo}/>
-                    <Cards years='Exp: 6 Months' clase='react' title='Terraform' img={terraformLogo}/>
+                    <Cards width={148} height={150} years='Exp: 1.5 Years' clase='node' title='Git' iimg={gitLogo}/>
+                    <Cards width={148} height={150} years='Exp: 6 Months' clase='bootstrap' title='Azure' iimg={azureLogo}/>
+                    <Cards width={148} height={150} years='Exp: 6 Months' clase='react' title='Terraform' iimg={terraformLogo}/>
                 </div>
             </div>
             
