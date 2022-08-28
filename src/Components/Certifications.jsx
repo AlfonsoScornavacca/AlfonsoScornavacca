@@ -14,7 +14,7 @@ import { CertificationModal } from './CertificationModal';
 
 function Certifications () {
     const [mostrar, setMostrar] = useState(false);
-
+    const [mostrarTwo, setMostrarTwo] = useState(false)
     const [img, setImg] = useState(null);
 
     const ObtenerMostrar = () => {setMostrar(true); setImg(Azure)};
@@ -25,12 +25,14 @@ function Certifications () {
     
     
     const ocultar = () => setMostrar (false);
+    const ocultarTwo = () => setMostrarTwo (false);
 
-    const ObtenerMostrarE = () => {setMostrar(true); setImg(teclab)};
+    const ObtenerMostrarE = () => {setMostrarTwo(true); setImg(teclab)};
     
     return ( 
-    <div className="certi-main">
+    <div className={mostrar ? 'certi-main-two' : mostrarTwo ? 'certi-main-two' : 'certi-main'}>
         <CertificationModal image={img} cerrar={ocultar} ver={mostrar ? 'div-mostrar' : 'ocultar'} />
+        <CertificationModal image={img} cerrar={ocultarTwo} ver={mostrarTwo ? 'div-mostrar-two' : 'ocultar'} />
         <h3>Microsoft</h3>
         <div className='certi-1'>
             <Cards click={ObtenerMostrar} width={630} height={400} clase='cartas'  iimg={Azure}/>

@@ -7,6 +7,14 @@
     background: #222;
     margin-top: 10px;
 }
+.certi-main-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #222;
+}
 .certi-1{
     display: flex;
     justify-content: space-around;
@@ -17,8 +25,8 @@
 }
 
 .div-mostrar{
-    width: 80%;
-    height: 80%;
+    width: 690px;
+    height: 480px;
     position: fixed;
     z-index: 999;
 }
@@ -27,11 +35,16 @@
 }
 button{
     border-radius: 10px;
-    background-color: rgb(218, 118, 118);    
+    background-color: rgb(218, 118, 118);
+    border-style: none;
 }
 .div-mostrar-two{
-    width: 80%;
-    height: 100%;
+    width: 480px;
+    height: 800px;
     position: fixed;
     z-index: 999;
+    margin: auto;
+}
+h3{
+    color:aliceblue
 }

@@ -11,10 +11,8 @@ function App() {
     <div className="App"> 
              <Header />
       <Routes>       
-
         <Route path='/' element={<Main />}/>
         <Route path='/certifications' element={<Certifications/>}/>
-
       </Routes>
               <Footer className='footer'/>
     </div>

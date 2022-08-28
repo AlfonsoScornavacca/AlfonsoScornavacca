@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css';
 import NavBar from './Header/Nav';
 
+
 function Head() {
     return (
         <div id='mainn'>
