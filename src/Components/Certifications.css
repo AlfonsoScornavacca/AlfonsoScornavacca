@@ -25,8 +25,8 @@
 }
 
 .div-mostrar{
-    width: 690px;
-    height: 480px;
+    width: 720px;
+    height: 500px;
     position: fixed;
     z-index: 999;
 }
@@ -34,6 +34,7 @@
     display: none;
 }
 button{
+    z-index: 1000;
     border-radius: 10px;
     background-color: rgb(218, 118, 118);
     border-style: none;
@@ -46,5 +47,8 @@ button{
     margin: auto;
 }
 h3{
-    color:aliceblue
+    color:aliceblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-style: oblique;
 }
