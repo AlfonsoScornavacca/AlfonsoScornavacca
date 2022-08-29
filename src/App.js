@@ -9,10 +9,9 @@ import Contact  from './Components/Contact';
 import Work  from './Components/Work';
 
 function App() {
-  const person = prompt('Please enter your name','')
   return (
     <div className="App"> 
-      <Header person={person} />
+      <Header />
       <Routes>       
         <Route path='/' element={<Main />}/>
         <Route path='/certifications' element={<Certifications/>}/>

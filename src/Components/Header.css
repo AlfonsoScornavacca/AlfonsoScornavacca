@@ -12,7 +12,9 @@
     justify-content: center;
 }
 h1 {
-    color: blue;
+    color: rgb(215, 215, 223);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant: inherit;
 }
 .div-1{
     display: flex;
