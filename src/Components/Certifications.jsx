@@ -6,7 +6,6 @@ import Js from '../Images/certifiedJS.png';
 import JsCertificate from '../Images/JSCertificate.png';
 import ReactCertificate from '../Images/ReactCertificate.png';
 import HTMLCertificate from '../Images/HTMLCertificate.png';
-import teclab from '../Images/teclab.png';
 import { CertificationModal } from './CertificationModal';
 
 
@@ -25,14 +24,10 @@ function Certifications () {
     
     
     const ocultar = () => setMostrar (false);
-    const ocultarTwo = () => setMostrarTwo (false);
-
-    const ObtenerMostrarE = () => {setMostrarTwo(true); setImg(teclab)};
     
     return ( 
     <div className={mostrar ? 'certi-main-two' : mostrarTwo ? 'certi-main-two' : 'certi-main'}>
         <CertificationModal image={img} cerrar={ocultar} ver={mostrar ? 'div-mostrar' : 'ocultar'} />
-        <CertificationModal image={img} cerrar={ocultarTwo} ver={mostrarTwo ? 'div-mostrar-two' : 'ocultar'} />
         <h3>Microsoft</h3>
         <div className='certi-1'>
             <Cards click={ObtenerMostrar} width={630} height={400} clase='cartas'  iimg={Azure}/>
@@ -45,10 +40,6 @@ function Certifications () {
         </div>
         <div className='certi-1'>
             <Cards   click={ObtenerMostrarD} width={630} height={400} clase='cartas'  iimg={HTMLCertificate}/>
-        </div>
-        <h3>Teclab</h3>
-        <div className='certi-1'>
-            <Cards click={ObtenerMostrarE} className='cartas'  width={400} height={630} iimg={teclab}/>
         </div>
     </div>
     );

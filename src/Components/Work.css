@@ -1,10 +1,61 @@
 .main-work{
     display: flex;
+    justify-content: space-around;
     width: 100%;
-    height: 100%;
+    height: 340px;
     background: #222;
     margin-top: 10px;
 }
 p{
     color: aliceblue;
+    margin-left: 3px;
+    font-weight: bold;
+}
+.secondary-work{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-style: double;
+    border-color: aliceblue;
+    border-radius: 10px;
+    height: 100%;
+    width: 40%;
+}
+.title{
+    color: antiquewhite;
+    font-style: oblique;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.repos{
+    color: darkslategrey;
+    font-style: italic;
+    cursor: pointer;
+    border-style: solid;
+    border-color: darkslategrey;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    background-color: aliceblue;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+}
+.repos:hover{
+    background-color: darkslategrey;
+    color:aliceblue;
+    border-color:aliceblue;
+}
+#repositories{
+    margin-top: 3px;
+    margin-bottom: 30px;
+    color: rgb(180, 201, 196);
+    font-weight: bolder;
+}
+label{
+    color: aliceblue;
+    font-size: larger;
 }
