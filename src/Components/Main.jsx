@@ -11,7 +11,7 @@ function Main () {
     return ( 
     <div className="main">
         <div className='main-img'>
-                <FigureExample text='Alfonso Scornavacca' width={171} height={180} image="https://avatars.githubusercontent.com/u/90060162?v=4"/>
+                <FigureExample  width={171} height={180} image="https://avatars.githubusercontent.com/u/90060162?v=4"/>
             <div className='cards-container'>
                 <div className='main-data'>
                     <div className='data-1'>

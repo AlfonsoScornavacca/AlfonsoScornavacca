@@ -8,22 +8,30 @@ export default function Work() {
     <div className='main-work'>
       <div className='secondary-work'>
         <span className='title'>Radium Rocket</span>
-        <p>
-          I worked in this company for 4 months. <br />
-          It was a team project (10 developers) and we developed an app using React for the front and Express for the back. <br/>
-          MongoDB was also used to create the database. <br />
+        <p className='parrafo'>
+          I worked in this company for 4 months. <br /><br/>
+          It was a team project (10 developers) and we developed an app using React for the front and Express for the back. <br/> <br/>
+          MongoDB was also used to create the database. <br /> <br/>
           Other tools used in this project: Postman, Git, Github, Slack.
         </p>
-        <label>You can see the repositories in the links below</label>
         <span id='repositories'>Repositories:</span>
-        <span className='repos' onClick={()=>openInNewTab('https://github.com/AlfonsoScornavacca/BackendMindSet')}>👉 Backend</span>
-        <span className='repos' onClick={()=>openInNewTab('https://github.com/AlfonsoScornavacca/FrontendMindSet')}>👉 Frontend</span>
+        <div className='button-container'>
+          <span className='repos' onClick={()=>openInNewTab('https://github.com/AlfonsoScornavacca/BackendMindSet')}>👉 Backend</span>
+          <span className='repos' onClick={()=>openInNewTab('https://github.com/AlfonsoScornavacca/FrontendMindSet')}>👉 Frontend</span>
+        </div>
       </div>
       <div className='secondary-work'>
       <span className='title'>Raona</span>
-        <p>
-        I currently work here
+        <p className='parrafo'>
+        I currently work here. <br/><br/>
+        I developing apps for companies such as CEPSA, Rural Servicios Informaticos, ContecNow and others.<br/><br/>
+        Some projects used PowerApp and Power Automate.<br/><br/>
+        Others projects React and Sharepoint like the small example below, which was developed for the company Raona
         </p>
+        <span id='repositories-a' >Repositories:</span>
+        <div className='button-container'>
+          <span className='repos' onClick={()=>openInNewTab('https://github.com/AlfonsoScornavacca/WebPartBirthDay')}>👉 React-Sharepoint</span>
+        </div>
       </div>
     </div>
   )

@@ -24,38 +24,52 @@ p{
 .title{
     color: antiquewhite;
     font-style: oblique;
-    font-size: large;
+    font-size: x-large;
+    text-decoration: underline;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 2px;
     margin-left: 2px;
 }
 .repos{
-    color: darkslategrey;
+    color: aliceblue;
     font-style: italic;
     cursor: pointer;
     border-style: solid;
-    border-color: darkslategrey;
+    border-color:aliceblue;
     border-radius: 5px;
     margin-bottom: 4px;
     margin-left: 4px;
-    background-color: aliceblue;
+    background-color: darkslategray;
     padding-left: 2px;
     padding-top: 2px;
     padding-right: 2px;
     padding-bottom: 2px;
 }
 .repos:hover{
-    background-color: darkslategrey;
-    color:aliceblue;
-    border-color:aliceblue;
+    background-color: aliceblue;
+    color:darkslategrey;
+    border-color:darkslategrey;
 }
+
 #repositories{
     margin-top: 3px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: rgb(180, 201, 196);
     font-weight: bolder;
 }
-label{
-    color: aliceblue;
-    font-size: larger;
+
+#repositories-a{
+    margin-top: 3px;
+    margin-bottom: 10px;
+    color: rgb(180, 201, 196);
+    font-weight: bolder;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.parrafo{
+    font-weight: normal;
 }

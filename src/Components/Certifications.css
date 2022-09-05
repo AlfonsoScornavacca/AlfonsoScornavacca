@@ -38,6 +38,7 @@ button{
     border-radius: 10px;
     background-color: rgb(218, 118, 118);
     border-style: none;
+    cursor: pointer;
 }
 .div-mostrar-two{
     width: 480px;
