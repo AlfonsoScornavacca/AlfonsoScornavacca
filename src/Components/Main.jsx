@@ -4,6 +4,8 @@ import Secondary from './Secondary';
 import Modall from './Modal';
 import Others from './Others';
 import FigureExample from './ProfileImage';
+import photoMain from '../Images/foto.jpg'
+
 
 
 function Main () {
@@ -11,7 +13,7 @@ function Main () {
     return ( 
     <div className="main">
         <div className='main-img'>
-                <FigureExample  width={171} height={180} image="https://avatars.githubusercontent.com/u/90060162?v=4"/>
+                <FigureExample  width={171} height={180} image={photoMain}/>
             <div className='cards-container'>
                 <div className='main-data'>
                     <div className='data-1'>
