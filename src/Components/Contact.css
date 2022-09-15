@@ -7,7 +7,7 @@ form{
     display: flex;
     flex-direction: column;
 }
-button{
+.button{
     width: 30%;
     margin-top: 4px;
 }

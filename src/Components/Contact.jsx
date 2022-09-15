@@ -19,7 +19,7 @@ export default function Contact() {
           <hr />
           <label htmlFor="">Message</label>
           <textarea name="" id="" cols="30" rows="10"></textarea>
-          <button>Send</button>
+          <button className='button'>Send</button>
         </form>
       </div>
       <div className='sub-contact-two'>
