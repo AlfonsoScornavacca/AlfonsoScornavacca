@@ -3,32 +3,23 @@
     justify-content: flex-start;
     align-items: center;
 }
-.button{
-    background-color: #222;
-    border-radius: 10px;
-    border-color: aliceblue;
-    border-style:solid;
-    color: aliceblue;
-    width: 100px;
-    height: 50px;
-    cursor: pointer;
-    margin: 1px;
-}
 
-.button:hover{
-    background-color: aliceblue;
-    border-radius: 10px;
-    border-color: #222;
-    border-style:solid;
-    color: #222;
-    width: 100px;
-    height: 50px;
-    cursor: pointer;
-    margin: 1px;
-    font-style: oblique;
-}
 .second-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.button{
+    background-color: #222;
+    border-radius: 10px;
+
+    color: aliceblue;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+
